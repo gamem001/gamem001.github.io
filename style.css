@@ -1,0 +1,155 @@
+.box-large {
+  height: 575px;
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: -50px;
+  padding-top: 10px;
+}
+
+img {
+  padding-right: 5px;
+}
+
+
+.box-small {
+  height: 400px;
+  background-color: white;
+  margin-top: 20%;
+  margin-bottom: 75%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: -50px;
+  padding-top: 10px;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: white;
+}
+
+.text-left{
+  font-weight: bold;
+}
+
+.landing-title {
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.caption {
+  text-align: justify;
+}
+.navbar {
+  background-color: rgb(33, 34, 39);
+}
+
+.navbar toggler {
+  color: white;
+  background-color: black;
+}
+
+.dropdown-menu{
+  background-color: black;
+}
+.navbar-expand-lg {
+  background-color: black;
+}
+
+.navbar-expand-lg a {
+  color: white;
+}
+
+.navbar-toggler span {
+  background-color:white;
+  margin: 5px;
+  display: flex;
+  height: 8px;
+  width: 30px;
+  border-color: white;
+}
+
+.box-comparison {
+  height: 800px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 75%;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: -10px;
+  padding-top: 10px;
+}
+
+.box-plot {
+  height: 800px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 75%;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-bottom: -10px;
+  padding-top: 10px;
+}
+
+@media (max-width: 770px){
+    .img {
+      display: inline;
+      width: 25%;
+      padding: 5px;
+    }
+
+   
+    .box-small {
+      height: 500px;
+      background-color: lightslategray;
+      margin-top: 10px;
+      margin-bottom: 75%;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: -10px;
+      padding-top: 10px;
+    }
+
+    .box-comparison {
+      height: 250px;
+      background-color: lightslategray;
+      margin-top: 10px;
+      margin-bottom: 75%;
+      margin-right: 20px;
+      padding-left: 15px;
+      padding-right: 5px;
+      padding-bottom: -10px;
+      padding-top: 10px;
+    }
+    .box-large {
+      height: 675px;
+      background-color:lightslategray;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      margin-left: 0%;
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: -50px;
+      padding-top: 10px;
+    }
+    .caption {
+      text-align: center;
+  }
+}
